@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+ }
+nav{
+    width: 71%;
+    max-width: 1140px;
+    /* border:1px solid orange; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo h2{
+    font-size: 45px;
+    font-weight: 900;
+}
+.color-orange{
+    color: #FD6E0A;
+}
+nav .menu{
+    display: flex;
+    gap: 51px;
+    list-style: none;
+    font-size: 20px;
+    align-items: center;
+    color: #474747;
+}
+.btn{
+    width: 150px;
+    height: 65px;
+    padding: 18px 35px;
+    color: white;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu button:hover{
+    background-color: white;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A ;
+}
+body{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}   
