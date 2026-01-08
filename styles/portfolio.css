@@ -14,7 +14,6 @@
 nav{
     width: 100%;
     max-width: 1140px;
-    /* border:1px solid orange; */
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -42,6 +41,11 @@ nav .menu{
     border-radius: 5px;
     font-weight: bold;
     font-size: 20px;
+}
+.btn:hover{
+    background-color: white;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A ;
 }
 .menu button:hover{
     background-color: white;
@@ -187,3 +191,47 @@ body{
     line-height: 28px;
 
 } 
+#edu .edu-container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+#edu .edu-container .section-heading{
+    margin-bottom: 113px;
+}
+#edu .edu-container .edu-exp{
+    display: flex;
+    gap: 24px;
+    margin: 0px auto;
+}
+#edu .edu-container .edu-exp h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.edu-exp hr{
+   margin: 30px 0px ;
+}
+.edu-exp .card{
+    width: 511px;
+    padding:30px 47px;
+    padding-left: 0px;
+}
+.edu-exp .card h3{
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.edu-exp .card h4{
+    font-size: 16px;
+    font-weight: 700px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.edu-exp .card p{
+    font-size: 16px;
+    color: #757575;
+}
+.down-button{
+    text-align: center;
+}
